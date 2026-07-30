@@ -1,6 +1,6 @@
 cask "floatpeek" do
-  version "1.3.0"
-  sha256 "fe73fe56acda923fb5ee205e0d569f41212ee5a65aef21b58afafee5370cbdf2"
+  version "2.0.0"
+  sha256 "a431e11175cca4a41da3c2ae96bba2ee676352266fb54df375c841cd0d91f947"
 
   url "https://github.com/2zk/FloatPeek/releases/download/v#{version}/FloatPeek-#{version}.zip",
       verified: "github.com/2zk/FloatPeek/"
@@ -8,6 +8,8 @@ cask "floatpeek" do
   desc "Image and PDF browser opened with a global keyboard shortcut"
   homepage "https://github.com/2zk/FloatPeek"
 
+  auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "FloatPeek.app"
