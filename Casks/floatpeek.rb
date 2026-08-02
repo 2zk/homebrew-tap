@@ -1,6 +1,6 @@
 cask "floatpeek" do
-  version "2.1.1"
-  sha256 "43838cad3a2a4dfb320781c78b30b4032c36c885661a1a8f836e62dffd673dd0"
+  version "2.1.2"
+  sha256 "eeab09f1caa8fb53e811756cc85fad36ae7590c3a830b83903c09c053695e552"
 
   url "https://github.com/2zk/FloatPeek/releases/download/v#{version}/FloatPeek-#{version}.zip",
       verified: "github.com/2zk/FloatPeek/"
